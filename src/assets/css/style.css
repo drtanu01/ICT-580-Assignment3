@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--to define langauge-->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Taruna Arora Resume</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="resume" />
+    <meta name="description" content="HTML Resume of Taruna Arora" />
+    <meta name="author" content="Taruna Arora" />
+    <link rel="stylesheet" href="src/assets/css/style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="body1">
+      <!------Div to store image and contact--------->
+
+      <div class="top">
+        <img src="src/assets/image/20220928_151319.jpg" alt="Taruna Arora" />
+        <h2>Taruna Arora</h2>
+        <h3>Consultant Physiotherapist (Gurgaon, India)</h3>
+
+        <!-----For linking contact form-->
+        <a href="contact.html"> CONTACT</a>
+      </div>
+
+      <div class="mainbox">
+        <!------------------Div for Left side-------------------->
+
+        <div class="box1">
+          <h2><b>Personal Information</b></h2>
+
+          <div class="box11">
+            <a href="tel:(+1)7808854266">(+1)7808854266</a>
+          </div>
+
+          <div class="box11">
+            <!--anchor for email-->
+            <a href="mailto:taruna27@outloo.com" target="_blank"
+              >taruna27@outlook.com</a
+            >
+          </div>
+
+          <div class="box12">
+            <h2><b>Skills</b></h2>
+            <ul>
+              <li>Dry Needling</li>
+              <li>Kinesio Taping</li>
+              <li>Mulligan & Maitland Mobilization</li>
+              <li>Mc Connell Taping</li>
+              <li>Myofacial Release</li>
+              <li>Agility Exercises</li>
+            </ul>
+          </div>
+
+          <hr class="hr" />
+          <div class="box12">
+            <h2><b>Languages</b></h2>
+            <ul>
+              <li>English (Fluent)</li>
+              <li>Hindi (Native)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-----------------Div for Right Side-------------------------------------->
+
+        <div class="box2">
+          <div class="box21">
+            <h2>Profile</h2>
+            <p>
+              A highly motivated, confident individual with exceptional
+              multi-tasking and Organisational skills. Able to communicate
+              effectively and sensitively with patients and careers to maximise
+              the rehabilitation of patients and to ensure understanding of
+              often complex clinical issues impacting on recovery. Excellent
+              client facing skills and the ability to work closely with other
+              health care professionals to assess patient’s needs and devise
+              suitable treatment plans for them. Ready and qualified for the
+              next stage in a successful career and looking forward to making a
+              significant contribution as a physiotherapist.
+            </p>
+          </div>
+
+          <hr class="hr" />
+
+          <div class="box22">
+            <h2>Education</h2>
+            <h4>Masters of Physiotherapy</h4>
+            <ul>
+              <li>Himalayan University, Rajasthan, India</li>
+              <li>08/2015-07/2017</li>
+            </ul>
+
+            <h4>Bachelors of Physsiotherapy</h4>
+            <ul>
+              <li>ISAE University</li>
+              <li>08/2006-02/2011</li>
+            </ul>
+          </div>
+
+          <hr class="hr" />
+
+          <div class="box23">
+            <h2>Experience</h2>
+            <h4>Forza Medi India Pvt Ltd - Aug 2017- July 2022</h4>
+            <ul>
+              <li>
+                Evaluating, planning and delivering care plans in response to
+                complex needs
+              </li>
+              <li>
+                Ensuring that equipment used in carrying out physiotherapy
+                duties is safe
+              </li>
+              <li>
+                Supervising and teaching recently qualified physiotherapist
+                assistants.
+              </li>
+              <li>
+                Organizing & prioritizing own workload & delegating
+                responsibilities accordingly.
+              </li>
+              <li>
+                Reporting all complaints/incidents to senior managers &
+                documenting them
+              </li>
+              <li>Involved in a patients pre admission and follow up care.</li>
+            </ul>
+
+            <h4>A+ ORTHOPAEDIC & SPORTS MEDICINE CLINIC- Aug 2011-July 2017</h4>
+            <ul>
+              <li>
+                Evaluating, planning and delivering care plans in response to
+                complex needs
+              </li>
+              <li>
+                Ensuring that equipment used in carrying out physiotherapy
+                duties is safe
+              </li>
+              <li>
+                Supervising and teaching recently qualified physiotherapist
+                assistants.
+              </li>
+              <li>
+                Organizing & prioritizing own workload & delegating
+                responsibilities accordingly.
+              </li>
+              <li>
+                Reporting all complaints/incidents to senior managers &
+                documenting them
+              </li>
+              <li>Involved in a patients pre admission and follow up care.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
