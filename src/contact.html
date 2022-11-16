@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML contact page for Taruna Arora ">
+    <title>contact</title>
+   <link rel="stylesheet" href="\css\style.css" type="text/css">
+</head>
+<body>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        
+        
+        .input-container {
+          display: -ms-flexbox; /* IE10 */
+          display: flex;
+          width: 100%;
+          margin-bottom: 15px;
+        }
+        
+        .icon {
+          padding: 10px;
+          background: dodgerblue;
+          color: white;
+          min-width: 50px;
+          text-align: center;
+        }
+        
+        .input-field {
+          width: 100%;
+          padding: 10px;
+          outline: none;
+        }
+        
+        .input-field:focus {
+          border: 2px solid dodgerblue;
+        }
+        
+        /* Set a style for the submit button */
+        .btn {
+          background-color: rgb(12, 129, 245);
+          color: rgb(248, 245, 250);
+          padding: 15px 20px;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+        
+        .btn:hover {
+          opacity: 1;
+        }
+        
+        
+        .box1{
+            margin-top: 15%;
+        }
+        
+        
+        
+        
+        </style>
+        </head>
+        <body>
+            <div class="mainbox">
+        
+        <div class="box1">
+            <form action="/action_page.php" style="max-width:500px;margin:auto">
+                <h2>Contact Me</h2>
 
+                <div class="input-container">
+                  <i class="fa fa-user icon"></i>
+                  <input class="input-field" type="text" placeholder="First Name" name="usrnm">
+                </div>
+
+                <div class="input-container">
+                  <i class="fa fa-user icon"></i>
+                  <input class="input-field" type="text" placeholder="Last Name" name="usrnm">
+                </div>
+              
+                <div class="input-container">
+                  <i class="fa fa-envelope icon"></i>
+                  <input class="input-field" type="text" placeholder="Email" name="email">
+                </div>
+                
+                <div class="input-container">
+                  <i class="fa fa-envelope icon"></i>
+                  <input class="input-field" type="text" placeholder="Mobile" name="Mobile">
+                </div>
+                
+              
+                <button type="Submit" class="btn">submit</button>
+              </form>
+        
+        </div>
+        
+        </div>
+        
+        </body>
+        </html>
